@@ -9,10 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-2.tar.gz
-Requires:         R-Formula R-statmod R-lmtest R-maxLik R-zoo R-MASS 
-Requires:         R-car R-nnet R-AER R-lattice 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-Formula R-statmod R-lmtest R-maxLik R-zoo R-MASS
-BuildRequires:    R-car R-nnet R-AER R-lattice 
+Requires:         R-Formula R-statmod R-lmtest R-maxLik R-zoo R-MASS
+Requires:         R-car R-nnet R-AER R-lattice
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Formula R-statmod R-lmtest R-maxLik R-zoo R-MASS
+BuildRequires:    R-car R-nnet R-AER R-lattice
 
 %description
 Estimation of the multinomial logit model

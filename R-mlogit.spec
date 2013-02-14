@@ -1,14 +1,16 @@
 %global packname  mlogit
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          0.2_2
+Version:          0.2.3
 Release:          1
 Summary:          multinomial logit model
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.2-2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mlogit_0.2-3.tar.gz
 Requires:         R-Formula R-statmod R-lmtest R-maxLik R-zoo R-MASS
 Requires:         R-car R-nnet R-AER R-lattice
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex

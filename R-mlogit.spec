@@ -9,7 +9,7 @@ Release:          2
 Summary:          multinomial logit model
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/mlogit_0.2-3.tar.gz
 Requires:         R-Formula R-statmod R-lmtest R-maxLik R-zoo R-MASS
 Requires:         R-car R-nnet R-AER R-lattice
